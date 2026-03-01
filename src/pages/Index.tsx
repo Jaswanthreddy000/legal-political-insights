@@ -82,8 +82,8 @@ const Index = () => {
       </section>
 
       {/* Stats */}
-      <section className="relative z-10 bg-background">
-        <div className="container mx-auto px-4 -mt-1">
+      <section className="relative z-10 bg-charcoal pb-6">
+        <div className="container mx-auto  ">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-border/50">
             {stats.map((stat, i) => (
               <FadeIn key={stat.label} delay={i * 0.1}>
