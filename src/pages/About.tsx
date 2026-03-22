@@ -157,11 +157,11 @@ const About = () => {
                 Stay Updated
               </h2>
               <div className="flex justify-center gap-6 mb-8">
-                <a href="https://www.youtube.com/@uskservices1111" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 border border-gold/30 text-background/70 hover:text-accent hover:border-accent transition-colors">
+                <a href="https://www.youtube.com/@uskservices" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 border border-gold/30 text-background/70 hover:text-accent hover:border-accent transition-colors">
                   <Youtube size={20} />
                   <span className="text-sm font-light">YouTube</span>
                 </a>
-                <a href="https://www.instagram.com/uskservices1111" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 border border-gold/30 text-background/70 hover:text-accent hover:border-accent transition-colors">
+                <a href="https://www.instagram.com/uskservices1111?igsh=MWM5M29hOXBtMXEwbg%3D%3D" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 border border-gold/30 text-background/70 hover:text-accent hover:border-accent transition-colors">
                   <Instagram size={20} />
                   <span className="text-sm font-light">Instagram</span>
                 </a>
