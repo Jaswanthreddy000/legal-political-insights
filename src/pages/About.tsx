@@ -1,4 +1,4 @@
-import { Award, BookOpen, Users, Target, CheckCircle } from "lucide-react";
+import { Award, BookOpen, Users, Target, CheckCircle, Mail, Youtube, Instagram } from "lucide-react";
 import Layout from "@/components/Layout";
 import FadeIn from "@/components/FadeIn";
 import uskservices from "@/assets/uskservices.jpeg"
@@ -144,6 +144,34 @@ const About = () => {
               </FadeIn>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Connect With Us */}
+      <section className="py-12 md:py-16 px-4 bg-charcoal">
+        <div className="container mx-auto">
+          <FadeIn>
+            <div className="text-center max-w-2xl mx-auto">
+              <p className="text-xs uppercase tracking-premium text-gold font-body font-semibold mb-4">Connect With Us</p>
+              <h2 className="text-3xl md:text-4xl font-heading font-semibold text-background mb-8">
+                Stay Updated
+              </h2>
+              <div className="flex justify-center gap-6 mb-8">
+                <a href="https://www.youtube.com/@uskservices1111" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 border border-gold/30 text-background/70 hover:text-accent hover:border-accent transition-colors">
+                  <Youtube size={20} />
+                  <span className="text-sm font-light">YouTube</span>
+                </a>
+                <a href="https://www.instagram.com/uskservices1111" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-6 py-3 border border-gold/30 text-background/70 hover:text-accent hover:border-accent transition-colors">
+                  <Instagram size={20} />
+                  <span className="text-sm font-light">Instagram</span>
+                </a>
+              </div>
+              <div className="flex items-center justify-center gap-3 text-background/50 text-sm">
+                <Mail size={14} className="text-accent" />
+                <span className="font-light">uskservices1111@gmail.com</span>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
     </Layout>

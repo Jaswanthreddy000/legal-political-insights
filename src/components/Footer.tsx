@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Youtube, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,6 +15,14 @@ const Footer = () => {
             <p className="text-primary-foreground/60 text-sm leading-relaxed font-light">
               Legal, political, and strategic advisory backed by 20+ years of ground-level experience across India.
             </p>
+            <div className="flex gap-4 mt-6">
+              <a href="https://www.youtube.com/@uskservices1111" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/40 hover:text-accent transition-colors">
+                <Youtube size={18} />
+              </a>
+              <a href="https://www.instagram.com/uskservices1111" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/40 hover:text-accent transition-colors">
+                <Instagram size={18} />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -51,7 +59,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
                 <Mail size={14} className="text-accent shrink-0" />
-                <span className="font-light">sravankunar9169@gmail.com</span>
+                <span className="font-light">uskservices1111@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
                 <Phone size={14} className="text-accent shrink-0" />
