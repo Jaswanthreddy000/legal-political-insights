@@ -16,10 +16,10 @@ const Footer = () => {
               Legal, political, and strategic advisory backed by 20+ years of ground-level experience across India.
             </p>
             <div className="flex gap-4 mt-6">
-              <a href="https://www.youtube.com/@uskservices1111" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/40 hover:text-accent transition-colors">
+              <a href="https://www.youtube.com/@uskservices" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/40 hover:text-accent transition-colors">
                 <Youtube size={18} />
               </a>
-              <a href="https://www.instagram.com/uskservices1111" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/40 hover:text-accent transition-colors">
+              <a href="https://www.instagram.com/uskservices1111?igsh=MWM5M29hOXBtMXEwbg%3D%3D" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/40 hover:text-accent transition-colors">
                 <Instagram size={18} />
               </a>
             </div>
