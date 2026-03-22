@@ -1,4 +1,4 @@
-import { Award, BookOpen, Users, Target, CheckCircle } from "lucide-react";
+import { Award, BookOpen, Users, Target, CheckCircle, Mail, Youtube, Instagram } from "lucide-react";
 import Layout from "@/components/Layout";
 import FadeIn from "@/components/FadeIn";
 import uskservices from "@/assets/uskservices.jpeg"
